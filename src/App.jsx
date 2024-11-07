@@ -10,6 +10,7 @@ import Footer from "./components/Footer";
 import Form from "./components/Form";
 import Products from "./components/Products";
 import ProductAbout from "./components/ProductAbout";
+import Statistic from "./components/Statistic";
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
             }
           />
           <Route path="/about" element={<AboutUs />} />
+          <Route path="/services" element={<Statistic />} />
           <Route path="/company" element={<Company />} />
           <Route path="/product" element={<Products />} />
           <Route path="/product/:id" element={<ProductAbout />} />
