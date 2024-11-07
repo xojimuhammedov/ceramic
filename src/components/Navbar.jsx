@@ -43,5 +43,9 @@ const css = {
     color: "#efdfb9",
     fontSize: "18px",
     lineHeight: "24px",
+    display: {
+      base: "none",
+      lg: "block",
+    },
   },
 };

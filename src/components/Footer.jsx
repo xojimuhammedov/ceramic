@@ -12,11 +12,7 @@ function Footer() {
           justifyContent={"space-between"}>
           <Box>
             <Heading {...css.title}>О нас</Heading>
-            <Text {...css.text}>
-              Компания «Ориент керамик» - это первое, и, на данный момент,
-              единственное представительство в России от Ташкентского
-              предприятия.
-            </Text>
+            <Text {...css.text}>{t("text4")}</Text>
           </Box>
           <Flex flexDirection={"column"} gap={"12px"}>
             <Heading {...css.title}>О нас</Heading>
