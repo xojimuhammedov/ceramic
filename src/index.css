@@ -1,0 +1,58 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 15px;
+  max-width: 1140px;
+}
+
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a {
+  font-family: "Roboto", sans-serif !important;
+}
+
+.home-video {
+  width: 100%;
+  height: 500px !important;
+  object-fit: cover !important;
+  margin: 16px 0;
+}
+
+body {
+  background-image: url("./assets/fon.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  /* height: 100vh; */
+}
+
+.form-label {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  color: #efdfb9;
+}
