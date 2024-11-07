@@ -1,22 +1,14 @@
 import { Box, Heading, Text } from "@chakra-ui/react";
+import { useTranslation } from "react-i18next";
 
 function Header() {
+  const { t } = useTranslation();
   return (
     <Box p={"48px 0"}>
       <Box className="container">
-        <Heading {...css.title}>О бренде</Heading>
-        <Text {...css.text}>
-          Изысканные коллекции керамогранитной плитки Оrient Сегаmic были
-          созданы под вдохновением от современных трендов, популярных стилей и
-          классики в мире дизайна.
-        </Text>
-        <Text {...css.text}>
-          Керамогранит Оrient Сегаmic - это возможность создать индивидуальный
-          интерьер, отражающий внутренний мир, чувства, эмоции, мечты,
-          мировоззрение. Это не просто плитка - это пространство для
-          самовыражения. Привнесите уют в интерьер и окружите себя красотой
-          вместе с Оrient Сегаmic!
-        </Text>
+        <Heading {...css.title}>{t("headerTitle")}</Heading>
+        <Text {...css.text}>{t("headerText")}</Text>
+        <Text {...css.text}>{t("headerText1")}</Text>
       </Box>
     </Box>
   );

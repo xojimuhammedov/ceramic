@@ -1,18 +1,20 @@
 import { useParams } from "react-router-dom";
 import { productData } from "../data";
 import { Box, Flex, Heading, Image, Text } from "@chakra-ui/react";
+import { useTranslation } from "react-i18next";
 
 function ProductAbout() {
   const { id } = useParams();
+  const { t } = useTranslation();
   const data = productData.find((item) => item.id === Number(id));
   return (
     <Box pb={"36px"}>
       <Box className="container">
-        <Heading {...css.title}>Модель {data?.title}</Heading>
+        <Heading {...css.title}>{t("model")} {data?.title}</Heading>
         <Flex mt={"24px"} justifyContent={"space-between"}>
           <Image {...css.image} src={data?.image} alt={data?.title} />
           <Box>
-            <Heading {...css.name}>Характеристики:</Heading>
+            <Heading {...css.name}>{t("statistic")}:</Heading>
             <Text
               {...css.text}
               dangerouslySetInnerHTML={{

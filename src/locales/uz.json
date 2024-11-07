@@ -1,1 +1,24 @@
-{}
+{
+  "nav": "О компании",
+  "nav1": "О производстве",
+  "nav2": "Характеристики",
+  "nav3": "Продукция",
+  "headerTitle": "О бренде",
+  "headerText": "Изысканные коллекции керамогранитной плитки Оrient Сегаmic были созданы под вдохновением от современных трендов, популярных стилей и классики в мире дизайна.",
+  "headerText1": "Керамогранит Оrient Сегаmic - это возможность создать индивидуальный интерьер, отражающий внутренний мир, чувства, эмоции, мечты, мировоззрение. Это не просто плитка - это пространство для самовыражения. Привнесите уют в интерьер и окружите себя красотой вместе с Оrient Сегаmic!",
+  "heroTitle": "Дизайн:",
+  "heroText": "Оrient Сегаmic создаёт коллекции для жизнерадостных, энергичных, уверенных в себе, нежных, улыбчивых, шумных, тихих, спокойных — таких разных, но их объединяет стремление создать для себя индивидуальный интерьер. Ваши помещения наполнятся ритмом большого города или безмятежностью природы, свежестью холодных гор или теплотой солнечного побережья, познакомят с современными трендами и откроют классику с НОВОЙ стороны.",
+  "contactText": "ALSTAR haqida ko‘proq ma’lumot olishni xohlaysizmi? Unda bizga yozing. Iltimos, quyidagi kontakt formasini to‘ldiring va bizga yuboring. Mutaxassislarimiz so‘rovingizni imkon qadar tezroq ko‘rib chiqadi va savollaringizga mamnuniyat bilan javob beradi. Bu yerda siz bizning to‘liq e’tiborimizni olasiz.",
+  "contactText1": "Biz sizga yordam berishdan mamnun bo‘lamiz. Bizning aloqa formasidan foydalaning va bizga so‘rovingizni yuboring. Tez orada sizga javob beramiz. Quyidagi variantlardan foydalanib, bizdan qanday ma’lumot olishni xohlayotganingizni tanlang — bu sizning shaxsiy istaklaringizga to‘liq mos keladi.",
+  "Submit": "Yuborish",
+  "Phone number": "Telefon raqami",
+  "Country": "Mamlakat",
+  "Location / Town": "Joylashuv / Shahar",
+  "Street": "Ko‘cha",
+  "email*": "email*",
+  "Company*": "Kompaniya*",
+  "Last name*": "Familiya*",
+  "First name*": "Ism*",
+  "Do you have any questions or suggestions?": "Savol yoki takliflaringiz bormi?",
+  "Here you get all our attention": "Bu yerda siz bizning to‘liq e’tiborimizni olasiz"
+}

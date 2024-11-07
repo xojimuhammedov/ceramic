@@ -1,6 +1,8 @@
 import { Box, Flex, Heading, Link, Text } from "@chakra-ui/react";
+import { useTranslation } from "react-i18next";
 
 function Footer() {
+  const { t } = useTranslation();
   return (
     <Box p={"24px 0"}>
       <Box className="container">
@@ -19,16 +21,16 @@ function Footer() {
           <Flex flexDirection={"column"} gap={"12px"}>
             <Heading {...css.title}>О нас</Heading>
             <Link {...css.link} href="/about">
-              О компании
+              {t("nav")}
             </Link>
             <Link {...css.link} href="/company">
-              О производстве
+              {t("nav1")}
             </Link>
             <Link {...css.link} href="/services">
-              Характеристики
+              {t("nav2")}
             </Link>
             <Link {...css.link} href="/product">
-              Продукция
+              {t("nav3")}
             </Link>
           </Flex>
           <Flex flexDirection={"column"} gap={"12px"}>
@@ -42,9 +44,6 @@ function Footer() {
             <Link {...css.link} href="/services">
               Ташкент г, Сергелийский р, улица Нилуфар – 50.
             </Link>
-            {/* <Link {...css.link} href="/product">
-              Продукция
-            </Link> */}
           </Flex>
         </Flex>
       </Box>

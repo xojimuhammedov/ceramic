@@ -1,8 +1,10 @@
 import { Box, Flex, Image, Link } from "@chakra-ui/react";
 import Logo from "../assets/logo1.png";
 import Language from "./Language";
+import { useTranslation } from "react-i18next";
 
 function Navbar() {
+  const { t } = useTranslation();
   return (
     <Box p={"36px 0"}>
       <Box className="container">
@@ -12,16 +14,16 @@ function Navbar() {
           </Link>
           <Flex align={"center"} gap={"24px"}>
             <Link {...css.link} href="/about">
-              О компании
+              {t("nav")}
             </Link>
             <Link {...css.link} href="/company">
-              О производстве
+              {t("nav1")}
             </Link>
             <Link {...css.link} href="/services">
-              Характеристики
+              {t("nav2")}
             </Link>
             <Link {...css.link} href="/product">
-              Продукция
+              {t("nav3")}
             </Link>
             <Language />
           </Flex>

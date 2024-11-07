@@ -1,12 +1,14 @@
 import { Box, Heading, Image, SimpleGrid } from "@chakra-ui/react";
 import { productData } from "../data";
 import { Link } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 
 function Products() {
+  const { t } = useTranslation();
   return (
     <Box pb={"36px"}>
       <Box className="container">
-        <Heading {...css.title}>Продукция</Heading>
+        <Heading {...css.title}>{t("product")}</Heading>
         <SimpleGrid
           mt={"24px"}
           gap={"36px"}
