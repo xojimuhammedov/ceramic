@@ -1,5 +1,6 @@
 import { Box, Flex, Image, Link } from "@chakra-ui/react";
 import Logo from "../assets/logo1.png";
+import Language from "./Language";
 
 function Navbar() {
   return (
@@ -22,6 +23,7 @@ function Navbar() {
             <Link {...css.link} href="/product">
               Продукция
             </Link>
+            <Language />
           </Flex>
         </Flex>
       </Box>

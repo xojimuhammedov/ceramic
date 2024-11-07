@@ -56,3 +56,42 @@ body {
   gap: 8px;
   color: #efdfb9;
 }
+
+.language-image {
+  width: 25px;
+  height: 25px;
+}
+
+.dropbtn {
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  min-width: 30px;
+  box-shadow: rgba(144, 173, 248, 0.25) 0px 9px 18px 0px;
+  z-index: 9999;
+  padding: 3px;
+}
+
+.dropdown-menu {
+  min-width: 120px !important;
+}
+
+.dropdown-content div{
+  margin: 3px 0;
+  text-align: center;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
