@@ -8,6 +8,8 @@ import AboutUs from "./components/AboutUs";
 import Company from "./components/Company";
 import Footer from "./components/Footer";
 import Form from "./components/Form";
+import Products from "./components/Products";
+import ProductAbout from "./components/ProductAbout";
 
 function App() {
   return (
@@ -27,6 +29,8 @@ function App() {
           />
           <Route path="/about" element={<AboutUs />} />
           <Route path="/company" element={<Company />} />
+          <Route path="/product" element={<Products />} />
+          <Route path="/product/:id" element={<ProductAbout />} />
         </Routes>
         <Footer />
       </Box>
