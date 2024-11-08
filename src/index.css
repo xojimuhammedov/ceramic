@@ -50,6 +50,10 @@ body {
   /* height: 100vh; */
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .form-label {
   display: flex;
   flex-direction: column;
