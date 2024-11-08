@@ -5,12 +5,14 @@ import { useTranslation } from "react-i18next";
 
 function ProductAbout() {
   const { id } = useParams();
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
   const data = productData.find((item) => item.id === Number(id));
   return (
     <Box pb={"36px"}>
       <Box className="container">
-        <Heading {...css.title}>{t("model")} {data?.title}</Heading>
+        <Heading {...css.title}>
+          {t("model")} {data?.title}
+        </Heading>
         <Flex mt={"24px"} justifyContent={"space-between"}>
           <Image {...css.image} src={data?.image} alt={data?.title} />
           <Box>
@@ -18,7 +20,7 @@ function ProductAbout() {
             <Text
               {...css.text}
               dangerouslySetInnerHTML={{
-                __html: data?.description,
+                __html: data[`description_${i18n?.language}`],
               }}
             />
           </Box>

@@ -37,7 +37,10 @@ export default Navbar;
 
 const css = {
   logo: {
-    width: "150px",
+    width: {
+      base: "100px",
+      md: "150px",
+    },
   },
   link: {
     color: "#efdfb9",
