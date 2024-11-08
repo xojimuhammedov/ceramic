@@ -129,6 +129,18 @@ function Statistic() {
           <Heading {...css.title}>{t("title5")}:</Heading>
           <Text {...css.text}>{t("description5")}</Text>
         </div>
+        <div className="statistic-list">
+          <Heading {...css.title}>{t("title6")}:</Heading>
+          <Text {...css.text}>{t("description6")}</Text>
+        </div>
+        <div className="statistic-list">
+          <Heading {...css.title}>{t("title7")}:</Heading>
+          <Text {...css.text}>{t("description7")}</Text>
+        </div>
+        <div className="statistic-list">
+          <Heading {...css.title}>{t("title8")}:</Heading>
+          <Text {...css.text}>{t("description8")}</Text>
+        </div>
 
         <Text {...css.text}>{t("text8")}</Text>
         <SimpleGrid gap={"24px"} columns={{ base: 1, md: 2, lg: 3 }}>
