@@ -70,7 +70,7 @@ const css = {
   },
   links: {
     color: "#efdfb9",
-    fontSize: "14px",
-    lineHeight: "24px",
+    fontSize: "12px",
+    lineHeight: "22px",
   },
 };
