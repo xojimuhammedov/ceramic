@@ -1,6 +1,7 @@
 import { Box, Heading, Image, Text } from "@chakra-ui/react";
 import Banner from "../assets/photo.jpg";
 import { useTranslation } from "react-i18next";
+import { Fade } from "react-reveal";
 
 function AboutUs() {
   const { t } = useTranslation();
@@ -10,9 +11,11 @@ function AboutUs() {
         <Heading {...css.title}>{t("nav")}</Heading>
         <Text {...css.text}>{t("text")}</Text>
         <Text {...css.text}>{t("text1")}</Text>
-        <Text {...css.text}>{t("text2")}</Text>
-        <Text {...css.text}>{t("text3")}</Text>
-        <Image {...css.image} src={Banner} alt="Banner" />
+        <Fade bottom>
+          <Text {...css.text}>{t("text2")}</Text>
+          <Text {...css.text}>{t("text3")}</Text>
+          <Image {...css.image} src={Banner} alt="Banner" />
+        </Fade>
       </Box>
     </Box>
   );

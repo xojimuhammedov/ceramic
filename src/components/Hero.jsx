@@ -1,13 +1,16 @@
 import { Box, Heading, Text } from "@chakra-ui/react";
 import { useTranslation } from "react-i18next";
+import { Fade } from "react-reveal";
 
 function Hero() {
   const { t } = useTranslation();
   return (
     <Box p={{ base: "12px 0", md: "24px 0" }}>
       <Box className="container">
-        <Heading {...css.title}>{t("heroTitle")}</Heading>
-        <Text {...css.text}>{t("heroText")}</Text>
+        <Fade bottom>
+          <Heading {...css.title}>{t("heroTitle")}</Heading>
+          <Text {...css.text}>{t("heroText")}</Text>
+        </Fade>
       </Box>
     </Box>
   );
