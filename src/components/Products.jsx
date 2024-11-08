@@ -14,7 +14,10 @@ function Products() {
           gap={"36px"}
           columns={{ base: 1, md: 2, lg: 3 }}>
           {productData.map((item, index) => (
-            <Link key={index} to={`/product/${item.id}`}>
+            <Link
+              onClick={() => window.scrollTo({ top: 0 })}
+              key={index}
+              to={`/product/${item.id}`}>
               <Box {...css.box}>
                 <Image {...css.image} src={item?.image} alt={item?.title} />
                 <Heading {...css.name}>{item?.title}</Heading>

@@ -43,6 +43,9 @@ export const productData = [
       "https://orient-ceramic.ru/uploads/0500_int.jpg",
       "https://orient-ceramic.ru/uploads/00_600x1200__1.jpg",
     ],
+    service: [
+      { id: "0500", size: "600x600", surfaceType: "matte", price: 1290 },
+    ],
   },
   {
     id: 2,
@@ -74,6 +77,10 @@ export const productData = [
       "https://orient-ceramic.ru/uploads/03_600x600__1.jpg",
       "https://orient-ceramic.ru/uploads/03_600x600__2.jpg",
       "https://orient-ceramic.ru/uploads/03_600x1200__2.jpg",
+    ],
+    service: [
+      { id: "0503", size: "600x600", surfaceType: "matte", price: 1290 },
+      { id: "0803", size: "600x1200", surfaceType: "carving", price: 1590 },
     ],
   },
   {
@@ -107,6 +114,10 @@ export const productData = [
       "https://orient-ceramic.ru/uploads/06_600x600__6.jpg",
       "https://orient-ceramic.ru/uploads/06_600x1200__5.jpg",
     ],
+    service: [
+      { id: "0506", size: "600x600", surfaceType: "matte", price: 1290 },
+      { id: "0806", size: "600x1200", surfaceType: "carving", price: 1590 },
+    ],
   },
   {
     id: 4,
@@ -139,6 +150,7 @@ export const productData = [
       "https://orient-ceramic.ru/uploads/11_600x1200__2.jpg",
       "https://orient-ceramic.ru/uploads/11_600x1200__6.jpg",
     ],
+    service: [{ id: "0511", size: "600x600", surfaceType: "", price: 1290 }],
   },
   {
     id: 5,
@@ -171,6 +183,7 @@ export const productData = [
       "https://orient-ceramic.ru/uploads/12_600x1200__2.jpg",
       "https://orient-ceramic.ru/uploads/12_600x600__4.jpg",
     ],
+    service: [{ id: "0512", size: "600x600", surfaceType: "", price: 1290 }],
   },
   {
     id: 6,
@@ -203,6 +216,10 @@ export const productData = [
       "https://orient-ceramic.ru/uploads/14_600x1200__2.jpg",
       "https://orient-ceramic.ru/uploads/14_600x600__5.jpg",
     ],
+    service: [
+      { id: "0514", size: "600x600", surfaceType: "", price: 1290 },
+      { id: "0814", size: "600x1200", surfaceType: "", price: 1590 },
+    ],
   },
   {
     id: 7,
@@ -229,6 +246,7 @@ export const productData = [
       "https://orient-ceramic.ru/uploads/18_600x1200__5.jpg",
       "https://orient-ceramic.ru/uploads/18_600x1200__3.jpg",
     ],
+    service: [{ id: "0818", size: "600x1200", surfaceType: "", price: 1590 }],
   },
   {
     id: 8,
@@ -258,6 +276,7 @@ export const productData = [
       "https://orient-ceramic.ru/uploads/19_600x600__4.jpg",
       "https://orient-ceramic.ru/uploads/19_600x600__6.jpg",
     ],
+    service: [{ id: "0819", size: "600x600", surfaceType: "", price: 1290 }],
   },
   {
     id: 9,
@@ -287,6 +306,7 @@ export const productData = [
       "https://orient-ceramic.ru/uploads/20_600x1200__1.jpg",
       "https://orient-ceramic.ru/uploads/20_600x1200__4.jpg",
     ],
+    service: [{ id: "0520", size: "600x600", surfaceType: "", price: 1290 }],
   },
   {
     id: 10,
@@ -315,6 +335,10 @@ export const productData = [
       "https://orient-ceramic.ru/uploads/21_600x600__2.jpg",
       "https://orient-ceramic.ru/uploads/21_600x1200__2.jpg",
       "https://orient-ceramic.ru/uploads/21_600x1200__5.jpg",
+    ],
+    service: [
+      { id: "0523", size: "600x600", surfaceType: "", price: 1290 },
+      { id: "0823", size: "600x1200", surfaceType: "", price: 1590 },
     ],
   },
   {
@@ -345,6 +369,10 @@ export const productData = [
       "https://orient-ceramic.ru/uploads/23_600x1200__1.jpg",
       "https://orient-ceramic.ru/uploads/23_600x1200__4.jpg",
     ],
+    service: [
+      { id: "0524", size: "600x600", surfaceType: "", price: 1290 },
+      { id: "0824", size: "600x1200", surfaceType: "", price: 1590 },
+    ],
   },
   {
     id: 12,
@@ -373,6 +401,10 @@ export const productData = [
       "https://orient-ceramic.ru/uploads/24_600x1200__1.jpg",
       "https://orient-ceramic.ru/uploads/24_600x1200__2.jpg",
       "https://orient-ceramic.ru/uploads/24_600x1200__4.jpg",
+    ],
+    service: [
+      { id: "0524", size: "600x600", surfaceType: "", price: 1290 },
+      { id: "0824", size: "600x1200", surfaceType: "", price: 1590 },
     ],
   },
 ];

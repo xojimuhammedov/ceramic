@@ -113,3 +113,9 @@ td {
   padding: 8px;
   color: #efdfb9;
 }
+
+@media (max-width: 500px) {
+  th {
+    font-size: 10px;
+  }
+}

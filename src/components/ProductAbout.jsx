@@ -40,6 +40,32 @@ function ProductAbout() {
             />
           </Box>
         </Flex>
+        <Heading m={"24px 0"} {...css.title}>
+          {t("Размеры и стоимость:")}
+        </Heading>
+        <table style={{ width: "100%", borderCollapse: "collapse" }}>
+          <thead>
+            <tr>
+              <th style={headerStyle}>{t("Артикул")}</th>
+              <th style={headerStyle}>{t("Размеры, мм")}</th>
+              <th style={headerStyle}>{t("Тип поверхности")}</th>
+              <th style={headerStyle}>{t("количество в коробке/шт")}</th>
+            </tr>
+          </thead>
+          <tbody>
+            {data?.service?.map((item) => (
+              <tr key={item.id}>
+                <td style={cellStyle}>{item.id}</td>
+                <td style={cellStyle}>{item.size}</td>
+                <td style={cellStyle}>{item.surfaceType}</td>
+                <td style={cellStyle}>{item.price}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+        <Heading m={"24px 0"} {...css.title}>
+          {t("gallery")}
+        </Heading>
         <SimpleGrid mt={"24px"} gap={"12px"} columns={{ base: 2, lg: 4 }}>
           {data?.images?.map((item, index) => (
             <Image
@@ -59,7 +85,10 @@ function ProductAbout() {
           gap={"36px"}
           columns={{ base: 1, md: 2, lg: 3 }}>
           {productData.map((item, index) => (
-            <Link key={index} to={`/product/${item.id}`}>
+            <Link
+              onClick={() => window.scrollTo({ top: 0 })}
+              key={index}
+              to={`/product/${item.id}`}>
               <Box {...css.box}>
                 <Image {...css.images} src={item?.image} alt={item?.title} />
                 <Heading {...css.names}>{item?.title}</Heading>
@@ -89,18 +118,33 @@ const css = {
   },
   title: {
     color: "#efdfb9",
-    fontSize: "40px",
-    lineHeight: "48px",
+    fontSize: {
+      base: "24px",
+      md: "40px",
+    },
+    lineHeight: {
+      base: "28px",
+      md: "48px",
+    },
   },
   name: {
     color: "#efdfb9",
-    fontSize: "34px",
-    lineHeight: "42px",
+    fontSize: {
+      base: "20px",
+      md: "34px",
+    },
+    lineHeight: {
+      base: "25px",
+      md: "42px",
+    },
     margin: "12px 0",
   },
   text: {
     color: "#efdfb9",
-    fontSize: "18px",
+    fontSize: {
+      base: "16px",
+      md: "18px",
+    },
     lineHeight: "30px",
     margin: "24px 0",
   },
@@ -112,7 +156,10 @@ const css = {
     padding: "16px",
     borderRadius: "20px !important",
     objectFit: "cover",
-    height: "350px",
+    height: {
+      base: "250px",
+      md: "350px",
+    },
     width: "100%",
   },
   names: {
@@ -124,7 +171,25 @@ const css = {
   },
   img: {
     width: "100%",
-    height: "280px",
+    height: {
+      base: "200px",
+      md: "280px",
+    },
     objectFit: "cover",
   },
+};
+
+const headerStyle = {
+  padding: "10px",
+  color: "#d8c189",
+  textAlign: "left",
+  fontWeight: "bold",
+  borderBottom: "1px solid #d8c189",
+};
+
+const cellStyle = {
+  padding: "10px",
+  textAlign: "left",
+  color: "#d8c189",
+  borderBottom: "1px solid #d8c189",
 };

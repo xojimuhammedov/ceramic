@@ -77,5 +77,11 @@
   "description7": "Pol uchun mo'ljallangan shisha qoplamali plitkalar uchun aşinish sinfi 1—5, GOST 27180-2019 p.9",
   "title8": "Issiqlikka chidamlilik",
   "description8": "Shisha qoplamali keramika plitkalarining shisha qoplamasi issiqlikka chidamliligi, °С: - rangli 125, plitkaning silliqlangan yuzasi zarar ko'rmagan. GOST 27180-2019 p.10.2, GOST 13996-2019 jadval 24 n.6.2 ga mos keladi",
-  "location": "Toshkent shahri, Sergeli tumani, Nilufar ko'chasi - 50-uy."
+  "location": "Toshkent shahri, Sergeli tumani, Nilufar ko'chasi - 50-uy.",
+  "количество в коробке/шт": "Qutidagi soni / dona",
+  "Тип поверхности": "Yuzasi turi",
+  "Размеры, мм": "O‘lchamlari, mm",
+  "Артикул": "Artikul",
+  "Размеры и стоимость:": "O‘lchamlari va narxi:",
+  "gallery": "Foto galereya:"
 }

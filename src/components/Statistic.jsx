@@ -14,6 +14,9 @@ import React from "react";
 function Statistic() {
   const { t } = useTranslation();
   const [open, setOpen] = React.useState(false);
+  const [open2, setOpen2] = React.useState(false);
+  const [open3, setOpen3] = React.useState(false);
+  const [open4, setOpen4] = React.useState(false);
   return (
     <Box p={"18px 0"}>
       <Box className="container">
@@ -157,17 +160,17 @@ function Statistic() {
             src={CertificateOne}
           />
           <Image
-            onClick={() => setOpen(true)}
+            onClick={() => setOpen2(true)}
             {...css.image}
             src={CertificateTwo}
           />
           <Image
-            onClick={() => setOpen(true)}
+            onClick={() => setOpen3(true)}
             {...css.image}
             src={CertificateThree}
           />
           <Image
-            onClick={() => setOpen(true)}
+            onClick={() => setOpen4(true)}
             {...css.image}
             src={CertificateFour}
           />
@@ -190,6 +193,63 @@ function Statistic() {
           },
           {
             src: CertificateFour,
+          },
+        ]}
+      />
+      <Lightbox
+        open={open2}
+        close={() => setOpen2(false)}
+        plugins={[Fullscreen, Share]}
+        slides={[
+          {
+            src: CertificateTwo,
+          },
+          {
+            src: CertificateOne,
+          },
+          {
+            src: CertificateThree,
+          },
+          {
+            src: CertificateFour,
+          },
+        ]}
+      />
+      <Lightbox
+        open={open3}
+        close={() => setOpen3(false)}
+        plugins={[Fullscreen, Share]}
+        slides={[
+          {
+            src: CertificateThree,
+          },
+          {
+            src: CertificateOne,
+          },
+          {
+            src: CertificateTwo,
+          },
+          {
+            src: CertificateFour,
+          },
+        ]}
+      />
+      <Lightbox
+        open={open4}
+        close={() => setOpen4(false)}
+        plugins={[Fullscreen, Share]}
+        slides={[
+          {
+            src: CertificateFour,
+          },
+          {
+            src: CertificateOne,
+          },
+          {
+            src: CertificateTwo,
+          },
+          {
+            src: CertificateThree,
           },
         ]}
       />
