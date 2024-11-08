@@ -39,7 +39,7 @@ function Footer() {
               orientceramic@mail.ru
             </Link>
             <Link {...css.link} href="/services">
-              Ташкент г, Сергелийский р, улица Нилуфар – 50.
+              {t("location")}
             </Link>
           </Flex>
         </Flex>
