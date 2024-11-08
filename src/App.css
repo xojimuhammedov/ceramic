@@ -4,3 +4,8 @@
   background-size: 100% 100%;
   /* height: 100vh; */
 }
+
+.dropdown-list{
+  display: flex;
+  gap: 12px;
+}
