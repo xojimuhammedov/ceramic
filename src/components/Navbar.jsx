@@ -1,7 +1,8 @@
-import { Box, Flex, Image, Link } from "@chakra-ui/react";
+import { Box, Flex, Image, Text } from "@chakra-ui/react";
 import Logo from "../assets/logo1.png";
 import Language from "./Language";
 import { useTranslation } from "react-i18next";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   const { t } = useTranslation();
@@ -9,40 +10,40 @@ function Navbar() {
     <Box p={"36px 0"}>
       <Box className="container">
         <Flex justifyContent={"space-between"}>
-          <Link href="/">
+          <Link to="/">
             <Image {...css.logo} src={Logo} />
           </Link>
           <Flex align={"center"} gap={"24px"}>
-            <Link {...css.link} href="/about">
-              {t("nav")}
+            <Link to="/about">
+              <Text {...css.link}>{t("nav")}</Text>
             </Link>
-            <Link {...css.link} href="/company">
-              {t("nav1")}
+            <Link to="/company">
+              <Text {...css.link}>{t("nav1")}</Text>
             </Link>
-            <Link {...css.link} href="/services">
-              {t("nav2")}
+            <Link to="/services">
+              <Text {...css.link}>{t("nav2")}</Text>
             </Link>
-            <Link {...css.link} href="/product">
-              {t("nav3")}
+            <Link to="/product">
+              <Text {...css.link}>{t("nav3")}</Text>
             </Link>
             <Language />
           </Flex>
         </Flex>
         <Flex
           justifyContent={"space-between"}
-          mt={'16px'}
+          mt={"16px"}
           display={{ base: "flex", md: "none" }}>
-          <Link {...css.links} href="/about">
-            {t("nav")}
+          <Link to="/about">
+            <Text {...css.links}>{t("nav")}</Text>
           </Link>
-          <Link {...css.links} href="/company">
-            {t("nav1")}
+          <Link to="/company">
+            <Text {...css.links}>{t("nav1")}</Text>
           </Link>
-          <Link {...css.links} href="/services">
-            {t("nav2")}
+          <Link to="/services">
+            <Text {...css.links}>{t("nav2")}</Text>
           </Link>
-          <Link {...css.links} href="/product">
-            {t("nav3")}
+          <Link to="/product">
+            <Text {...css.links}>{t("nav3")}</Text>
           </Link>
         </Flex>
       </Box>

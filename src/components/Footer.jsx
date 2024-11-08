@@ -16,17 +16,17 @@ function Footer() {
           </Box>
           <Flex flexDirection={"column"} gap={"12px"}>
             <Heading {...css.title}>{t("Links")}</Heading>
-            <Link {...css.link} href="/about">
-              {t("nav")}
+            <Link to="/about">
+              <Text {...css.link}>{t("nav")}</Text>
             </Link>
-            <Link {...css.link} href="/company">
-              {t("nav1")}
+            <Link to="/company">
+              <Text {...css.link}>{t("nav1")}</Text>
             </Link>
-            <Link {...css.link} href="/services">
-              {t("nav2")}
+            <Link to="/services">
+              <Text {...css.link}>{t("nav2")}</Text>
             </Link>
-            <Link {...css.link} href="/product">
-              {t("nav3")}
+            <Link to="/product">
+              <Text {...css.link}>{t("nav3")}</Text>
             </Link>
           </Flex>
           <Flex flexDirection={"column"} gap={"12px"}>
