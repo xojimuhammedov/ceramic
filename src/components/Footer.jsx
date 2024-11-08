@@ -11,11 +11,11 @@ function Footer() {
           gap={{ base: "24px", xl: "0" }}
           justifyContent={"space-between"}>
           <Box>
-            <Heading {...css.title}>О нас</Heading>
+            <Heading {...css.title}>{t("nav")}</Heading>
             <Text {...css.text}>{t("text4")}</Text>
           </Box>
           <Flex flexDirection={"column"} gap={"12px"}>
-            <Heading {...css.title}>О нас</Heading>
+            <Heading {...css.title}>{t("Links")}</Heading>
             <Link {...css.link} href="/about">
               {t("nav")}
             </Link>
@@ -30,7 +30,7 @@ function Footer() {
             </Link>
           </Flex>
           <Flex flexDirection={"column"} gap={"12px"}>
-            <Heading {...css.title}>О нас</Heading>
+            <Heading {...css.title}>{t("Location")}</Heading>
             <Link {...css.link} href="tel:+998773197177">
               +998 77 319 71 77
             </Link>
