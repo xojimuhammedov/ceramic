@@ -1,6 +1,6 @@
-import { useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import { productData } from "../data";
-import { Box, Flex, Heading, Image, Text } from "@chakra-ui/react";
+import { Box, Flex, Heading, Image, SimpleGrid, Text } from "@chakra-ui/react";
 import { useTranslation } from "react-i18next";
 
 function ProductAbout() {
@@ -28,6 +28,20 @@ function ProductAbout() {
             />
           </Box>
         </Flex>
+        <Heading mt={'36px'} {...css.title}>{t("Other Products")}</Heading>
+        <SimpleGrid
+          mt={"24px"}
+          gap={"36px"}
+          columns={{ base: 1, md: 2, lg: 3 }}>
+          {productData.map((item, index) => (
+            <Link key={index} to={`/product/${item.id}`}>
+              <Box {...css.box}>
+                <Image {...css.images} src={item?.image} alt={item?.title} />
+                <Heading {...css.names}>{item?.title}</Heading>
+              </Box>
+            </Link>
+          ))}
+        </SimpleGrid>
       </Box>
     </Box>
   );
@@ -57,5 +71,23 @@ const css = {
     fontSize: "18px",
     lineHeight: "30px",
     margin: "24px 0",
+  },
+  box: {
+    background: "#fff",
+    borderRadius: "20px",
+  },
+  images: {
+    padding: "16px",
+    borderRadius: "20px !important",
+    objectFit: "cover",
+    height: "350px",
+    width: "100%",
+  },
+  names: {
+    color: "#111",
+    fontSize: "24px",
+    lineHeight: "32px",
+    textAlign: "center",
+    paddingBottom: "12px",
   },
 };

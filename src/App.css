@@ -5,7 +5,10 @@
   /* height: 100vh; */
 }
 
-.dropdown-list{
+.dropdown-list {
   display: flex;
   gap: 12px;
+}
+.statistic-list {
+  margin: 15px 0;
 }

@@ -1,0 +1,91 @@
+{
+  "items": [
+    {
+      "uzbek": {
+        "title": "Uzunlik va kenglik",
+        "description": [
+          "Har bir plitkaning o'rtacha o'lchami (2 yoki 4 tomon) ishlatiladigan o'lchamga nisbatan ruxsat etilgan og'ish: ±0,5%; (±2,0mm)",
+          "±0,5%, ±0,5%, ±0,5%, ±0,5%",
+          "GOST 27180-2019 p.5.2",
+          "GOST 13996-2019 jadval 13 n.1 ga mos keladi"
+        ]
+      },
+      "russian": {
+        "title": "Длина и ширина",
+        "description": [
+          "Предельно допустимое отклонение среднего размера для каждой плитки (2 или 4 стороны) от рабочего размера W ± 0,5%; (±2,0мм)",
+          "±0,5%, ±0,5%, ±0,5%, ±0,5%",
+          "ГОСТ 27180-2019 п.5.2",
+          "Соответствует п.1 таблицы 13 ГОСТ 13996-2019"
+        ]
+      },
+      "english": {
+        "title": "Length and Width",
+        "description": [
+          "Permissible deviation of the average size of each tile (2 or 4 sides) from the working size W ± 0.5%; (±2.0mm)",
+          "±0.5%, ±0.5%, ±0.5%, ±0.5%",
+          "GOST 27180-2019 p.5.2",
+          "Conforms to item 1 of table 13 GOST 13996-2019"
+        ]
+      }
+    },
+    {
+      "uzbek": {
+        "title": "Qalinlik",
+        "description": [
+          "Har bir plitkaning o'rtacha qalinligi ishlatiladigan o'lchamga nisbatan ruxsat etilgan og'ish: ±0,6%; (±2,0mm)",
+          "±5%, ±5%, ±5%, ±5%",
+          "GOST 27180-2019 p.5.3",
+          "GOST 13996-2019 jadval 13 n.2 ga mos keladi"
+        ]
+      },
+      "russian": {
+        "title": "Толщина",
+        "description": [
+          "Предельно допустимое отклонение средней толщины каждой плитки от рабочего размера W ± 0,6%; (±2,0мм)",
+          "±5%, ±5%, ±5%, ±5%",
+          "ГОСТ 27180-2019 п.5.3",
+          "Соответствует п.2 таблицы 13 ГОСТ 13996-2019"
+        ]
+      },
+      "english": {
+        "title": "Thickness",
+        "description": [
+          "Permissible deviation of the average thickness of each tile from the working size W ± 0.6%; (±2.0mm)",
+          "±5%, ±5%, ±5%, ±5%",
+          "GOST 27180-2019 p.5.3",
+          "Conforms to item 2 of table 13 GOST 13996-2019"
+        ]
+      }
+    },
+    {
+      "uzbek": {
+        "title": "Tekislik",
+        "description": [
+          "Ishlatiladigan o'lchamga nisbatan tekislikdagi ruxsat etilgan og'ish: ±0,5%; (±1,5mm)",
+          "±0,5%, ±0,5%, ±0,5%, ±0,5%",
+          "GOST 27180-2019 p.5.4",
+          "GOST 13996-2019 jadval 13 n.3 ga mos keladi"
+        ]
+      },
+      "russian": {
+        "title": "Прямолинейность граней",
+        "description": [
+          "Предельно допустимое отклонение относительно соответствующего рабочего размера W ± 0,5%; (±1,5мм)",
+          "±0,5%, ±0,5%, ±0,5%, ±0,5%",
+          "ГОСТ 27180-2019 п.5.4",
+          "Соответствует п.3 таблицы 13 ГОСТ 13996-2019"
+        ]
+      },
+      "english": {
+        "title": "Edge Straightness",
+        "description": [
+          "Permissible deviation relative to the corresponding working size W ± 0.5%; (±1.5mm)",
+          "±0.5%, ±0.5%, ±0.5%, ±0.5%",
+          "GOST 27180-2019 p.5.4",
+          "Conforms to item 3 of table 13 GOST 13996-2019"
+        ]
+      }
+    }
+  ]
+}

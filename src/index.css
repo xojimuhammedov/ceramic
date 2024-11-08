@@ -101,3 +101,15 @@ body {
   height: 450px;
   margin-top: 24px;
 }
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+  margin-bottom: 25px;
+}
+td {
+  border: 1px solid #fff;
+  padding: 8px;
+  color: #efdfb9;
+}
