@@ -37,6 +37,12 @@ export const productData = [
     Thickness: 9 ≥ mm <br />
     Faces count: 6`,
     image: ProductOne,
+    images: [
+      "https://orient-ceramic.ru/uploads/00_600x600__1.jpg",
+      "https://orient-ceramic.ru/uploads/00_600x600__2.jpg",
+      "https://orient-ceramic.ru/uploads/0500_int.jpg",
+      "https://orient-ceramic.ru/uploads/00_600x1200__1.jpg",
+    ],
   },
   {
     id: 2,
@@ -63,6 +69,12 @@ export const productData = [
     Thickness: 9 ≥ mm <br />
     Faces count: 6`,
     image: ProductTwo,
+    images: [
+      "https://orient-ceramic.ru/uploads/0503_int.jpg",
+      "https://orient-ceramic.ru/uploads/03_600x600__1.jpg",
+      "https://orient-ceramic.ru/uploads/03_600x600__2.jpg",
+      "https://orient-ceramic.ru/uploads/03_600x1200__2.jpg",
+    ],
   },
   {
     id: 3,
@@ -89,6 +101,12 @@ export const productData = [
     Thickness: 9 ≥ mm <br />
     Faces count: 6`,
     image: ProductThree,
+    images: [
+      "https://orient-ceramic.ru/uploads/0506_int.jpg",
+      "https://orient-ceramic.ru/uploads/06_600x600__4.jpg",
+      "https://orient-ceramic.ru/uploads/06_600x600__6.jpg",
+      "https://orient-ceramic.ru/uploads/06_600x1200__5.jpg",
+    ],
   },
   {
     id: 4,
@@ -115,6 +133,12 @@ export const productData = [
     Thickness: 9 ≥ mm <br />
     Faces count: 6`,
     image: ProductFour,
+    images: [
+      "https://orient-ceramic.ru/uploads/0511_int.jpg",
+      "https://orient-ceramic.ru/uploads/11_600x600__2.jpg",
+      "https://orient-ceramic.ru/uploads/11_600x1200__2.jpg",
+      "https://orient-ceramic.ru/uploads/11_600x1200__6.jpg",
+    ],
   },
   {
     id: 5,
@@ -141,6 +165,12 @@ export const productData = [
     Thickness: 9 ≥ mm <br />
     Faces count: 6`,
     image: ProductFive,
+    images: [
+      "https://orient-ceramic.ru/uploads/0512_int.jpg",
+      "https://orient-ceramic.ru/uploads/12_600x1200__4.jpg",
+      "https://orient-ceramic.ru/uploads/12_600x1200__2.jpg",
+      "https://orient-ceramic.ru/uploads/12_600x600__4.jpg",
+    ],
   },
   {
     id: 6,
@@ -167,6 +197,12 @@ export const productData = [
     Thickness: 9 ≥ mm <br />
     Faces count: 6`,
     image: ProductSix,
+    images: [
+      "https://orient-ceramic.ru/uploads/0514_int.jpg",
+      "https://orient-ceramic.ru/uploads/14_600x1200__1.jpg",
+      "https://orient-ceramic.ru/uploads/14_600x1200__2.jpg",
+      "https://orient-ceramic.ru/uploads/14_600x600__5.jpg",
+    ],
   },
   {
     id: 7,
@@ -187,6 +223,12 @@ export const productData = [
     Usage: Floors, walls, and facade <br />
     Thickness: 9 ≥ mm`,
     image: ProductSeven,
+    images: [
+      "https://orient-ceramic.ru/uploads/0518_int.jpg",
+      "https://orient-ceramic.ru/uploads/18_600x600__2.jpg",
+      "https://orient-ceramic.ru/uploads/18_600x1200__5.jpg",
+      "https://orient-ceramic.ru/uploads/18_600x1200__3.jpg",
+    ],
   },
   {
     id: 8,
@@ -210,6 +252,12 @@ export const productData = [
     Usage: Floors, walls, and facade <br />
     Thickness: 9 ≥ mm`,
     image: ProductEight,
+    images: [
+      "https://orient-ceramic.ru/uploads/0519_int.jpg",
+      "https://orient-ceramic.ru/uploads/19_600x600__2.jpg",
+      "https://orient-ceramic.ru/uploads/19_600x600__4.jpg",
+      "https://orient-ceramic.ru/uploads/19_600x600__6.jpg",
+    ],
   },
   {
     id: 9,
@@ -233,6 +281,12 @@ export const productData = [
     Usage: Floors, walls, and facade <br />
     Thickness: 9 ≥ mm`,
     image: ProductNine,
+    images: [
+      "https://orient-ceramic.ru/uploads/0520_int.jpg",
+      "https://orient-ceramic.ru/uploads/20_600x1200__2.jpg",
+      "https://orient-ceramic.ru/uploads/20_600x1200__1.jpg",
+      "https://orient-ceramic.ru/uploads/20_600x1200__4.jpg",
+    ],
   },
   {
     id: 10,
@@ -256,6 +310,12 @@ export const productData = [
     Usage: Floors, walls, and facade <br />
     Thickness: 9 ≥ mm`,
     image: ProductTen,
+    images: [
+      "https://orient-ceramic.ru/uploads/0521_int.jpg",
+      "https://orient-ceramic.ru/uploads/21_600x600__2.jpg",
+      "https://orient-ceramic.ru/uploads/21_600x1200__2.jpg",
+      "https://orient-ceramic.ru/uploads/21_600x1200__5.jpg",
+    ],
   },
   {
     id: 11,
@@ -279,6 +339,12 @@ export const productData = [
     Usage: Floors, walls, and facade <br />
     Thickness: 9 ≥ mm`,
     image: ProductEleven,
+    images: [
+      "https://orient-ceramic.ru/uploads/0523_int.jpg",
+      "https://orient-ceramic.ru/uploads/23_600x600__3.jpg",
+      "https://orient-ceramic.ru/uploads/23_600x1200__1.jpg",
+      "https://orient-ceramic.ru/uploads/23_600x1200__4.jpg",
+    ],
   },
   {
     id: 12,
@@ -302,5 +368,11 @@ export const productData = [
     Usage: Floors, walls, and facade <br />
     Thickness: 9 ≥ mm`,
     image: ProductTwelf,
+    images: [
+      "https://orient-ceramic.ru/uploads/0524_int.jpg",
+      "https://orient-ceramic.ru/uploads/24_600x1200__1.jpg",
+      "https://orient-ceramic.ru/uploads/24_600x1200__2.jpg",
+      "https://orient-ceramic.ru/uploads/24_600x1200__4.jpg",
+    ],
   },
 ];

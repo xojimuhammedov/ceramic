@@ -28,7 +28,14 @@ function ProductAbout() {
             />
           </Box>
         </Flex>
-        <Heading mt={'36px'} {...css.title}>{t("Other Products")}</Heading>
+        <SimpleGrid mt={"24px"} gap={"12px"} columns={{ base: 2, lg: 4 }}>
+          {data?.images?.map((item, index) => (
+            <Image key={index} {...css.img} src={item} alt={""} />
+          ))}
+        </SimpleGrid>
+        <Heading mt={"36px"} {...css.title}>
+          {t("Other Products")}
+        </Heading>
         <SimpleGrid
           mt={"24px"}
           gap={"36px"}
@@ -89,5 +96,10 @@ const css = {
     lineHeight: "32px",
     textAlign: "center",
     paddingBottom: "12px",
+  },
+  img: {
+    width: "100%",
+    height: "280px",
+    objectFit: "cover",
   },
 };
