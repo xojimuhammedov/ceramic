@@ -1,8 +1,8 @@
 import { Box, Heading, Image, SimpleGrid, Text } from "@chakra-ui/react";
-import CertificateOne from "../assets/sertifikat.jpg";
-import CertificateTwo from "../assets/sertifikat1.jpg";
-import CertificateThree from "../assets/sertifikat2.jpg";
-import CertificateFour from "../assets/sertifikat3.jpg";
+import CertificateOne from "../assets/ser1.jpg";
+import CertificateTwo from "../assets/ser2.jpg";
+import CertificateThree from "../assets/ser3.jpg";
+import CertificateFour from "../assets/ser4.jpg";
 import { useTranslation } from "react-i18next";
 
 function Statistic() {
@@ -159,7 +159,7 @@ export default Statistic;
 const css = {
   image: {
     width: "100%",
-    height: "480px",
+    height: "520px",
     objectFit: "cover",
   },
   title: {
