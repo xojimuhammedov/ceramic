@@ -7,14 +7,12 @@ import {
   Text,
 } from "@chakra-ui/react";
 import { useTranslation } from "react-i18next";
-import { Fade } from "react-reveal";
 
 function Form() {
   const { t } = useTranslation();
   return (
     <Box>
       <Box className="container">
-        <Fade bottom>
           <Box {...css.form}>
             <Box className="container-mix">
               <Heading {...css.title}>
@@ -81,7 +79,6 @@ function Form() {
               />
             </Box>
           </Box>
-        </Fade>
       </Box>
     </Box>
   );
