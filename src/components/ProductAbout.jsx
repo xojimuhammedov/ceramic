@@ -13,7 +13,10 @@ function ProductAbout() {
         <Heading {...css.title}>
           {t("model")} {data?.title}
         </Heading>
-        <Flex mt={"24px"} justifyContent={"space-between"}>
+        <Flex
+          flexDirection={{ base: "column", md: "row" }}
+          mt={"24px"}
+          justifyContent={"space-between"}>
           <Image {...css.image} src={data?.image} alt={data?.title} />
           <Box>
             <Heading {...css.name}>{t("statistic")}:</Heading>
