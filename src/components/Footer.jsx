@@ -1,6 +1,6 @@
-import { Box, Flex, Heading, Text } from "@chakra-ui/react";
+import { Box, Flex, Heading, Text, Link } from "@chakra-ui/react";
 import { useTranslation } from "react-i18next";
-import { Link } from "react-router-dom";
+import { Link as ALink } from "react-router-dom";
 
 function Footer() {
   const { t } = useTranslation();
@@ -17,18 +17,18 @@ function Footer() {
           </Box>
           <Flex flexDirection={"column"} gap={"12px"}>
             <Heading {...css.title}>{t("Links")}</Heading>
-            <Link to="/about">
+            <ALink to="/about">
               <Text {...css.link}>{t("nav")}</Text>
-            </Link>
-            <Link to="/company">
+            </ALink>
+            <ALink to="/company">
               <Text {...css.link}>{t("nav1")}</Text>
-            </Link>
-            <Link to="/services">
+            </ALink>
+            <ALink to="/services">
               <Text {...css.link}>{t("nav2")}</Text>
-            </Link>
-            <Link to="/product">
+            </ALink>
+            <ALink to="/product">
               <Text {...css.link}>{t("nav3")}</Text>
-            </Link>
+            </ALink>
           </Flex>
           <Flex flexDirection={"column"} gap={"12px"}>
             <Heading {...css.title}>{t("Location")}</Heading>
