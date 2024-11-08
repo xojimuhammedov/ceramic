@@ -72,5 +72,11 @@
   "title5": "Surface Quality",
   "description5": "At least 95% of tiles should be free from visible defects that could impair the appearance of the tile. No visible defects were found that could impair the appearance of the tile 100% GOST 27180-2019 p.5.7, Conforms to item 6 of table 13 GOST 13996-2019",
   "text8": "CONCLUSION: The results apply only to the objects submitted for testing samples: comply with the requirements of the following GOSTs 13996-2019 p.5.2 (Table 13 p. 1), p.5.2 (Table 13 p. 2), p.5.2 (Table 13 p. 3), p.5.2 (Table 13 p. 4), p.5.2 (Table 13 p. 5), p.5.2 (Table 13 p. 6), p.6.2 (Table 26), p.6.2 (Table 24)",
-  "Other Products": "Other Products"
+  "Other Products": "Other Products",
+  "title6": "Flexural Strength and Breaking Load N, not less than:",
+  "description6": "Breaking load, N, not less than: - for thickness >7.5 mm, 1300 - for thickness <7.5 mm, 700. Tile appearance. GOST 27180-2019 p.7, Conforms to item 6.2 (table 24) GOST 13996-2019",
+  "title7": "Wear Resistance of Glazed Tiles, not more than:",
+  "description7": "For glazed floor tiles, Wear Resistance Class 1—5, GOST 27180-2019 p.9",
+  "title8": "Thermal Resistance",
+  "description8": "Thermal resistance of the glaze on glazed ceramic tiles, °С: - colored 125, no damage to the glazed surface of the tile detected. GOST 27180-2019 p.10.2, Conforms to item 6.2 (table 24) GOST 13996-2019"
 }
