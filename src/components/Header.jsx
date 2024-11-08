@@ -4,7 +4,7 @@ import { useTranslation } from "react-i18next";
 function Header() {
   const { t } = useTranslation();
   return (
-    <Box p={"48px 0"}>
+    <Box p={{ base: "12px 0", md: "48px 0" }}>
       <Box className="container">
         <Heading {...css.title}>{t("headerTitle")}</Heading>
         <Text {...css.text}>{t("headerText")}</Text>

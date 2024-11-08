@@ -5,7 +5,7 @@ import { useTranslation } from "react-i18next";
 function AboutUs() {
   const { t } = useTranslation();
   return (
-    <Box p={"24px 0"}>
+    <Box p={{ base: "12px 0", md: "48px 0" }}>
       <Box className="container">
         <Heading {...css.title}>{t("nav")}</Heading>
         <Text {...css.text}>{t("text")}</Text>
