@@ -1,5 +1,6 @@
-import { Box, Flex, Heading, Link, Text } from "@chakra-ui/react";
+import { Box, Flex, Heading, Text } from "@chakra-ui/react";
 import { useTranslation } from "react-i18next";
+import { Link } from "react-router-dom";
 
 function Footer() {
   const { t } = useTranslation();
