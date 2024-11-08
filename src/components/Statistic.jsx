@@ -5,8 +5,15 @@ import CertificateThree from "../assets/ser3.jpg";
 import CertificateFour from "../assets/ser4.jpg";
 import { useTranslation } from "react-i18next";
 
+import Lightbox from "yet-another-react-lightbox";
+import Fullscreen from "yet-another-react-lightbox/plugins/fullscreen";
+import "yet-another-react-lightbox/styles.css";
+import Share from "yet-another-react-lightbox/plugins/share";
+import React from "react";
+
 function Statistic() {
   const { t } = useTranslation();
+  const [open, setOpen] = React.useState(false);
   return (
     <Box p={"18px 0"}>
       <Box className="container">
@@ -144,12 +151,48 @@ function Statistic() {
 
         <Text {...css.text}>{t("text8")}</Text>
         <SimpleGrid gap={"24px"} columns={{ base: 1, md: 2, lg: 3 }}>
-          <Image {...css.image} src={CertificateOne} />
-          <Image {...css.image} src={CertificateTwo} />
-          <Image {...css.image} src={CertificateThree} />
-          <Image {...css.image} src={CertificateFour} />
+          <Image
+            onClick={() => setOpen(true)}
+            {...css.image}
+            src={CertificateOne}
+          />
+          <Image
+            onClick={() => setOpen(true)}
+            {...css.image}
+            src={CertificateTwo}
+          />
+          <Image
+            onClick={() => setOpen(true)}
+            {...css.image}
+            src={CertificateThree}
+          />
+          <Image
+            onClick={() => setOpen(true)}
+            {...css.image}
+            src={CertificateFour}
+          />
         </SimpleGrid>
       </Box>
+
+      <Lightbox
+        open={open}
+        close={() => setOpen(false)}
+        plugins={[Fullscreen, Share]}
+        slides={[
+          {
+            src: CertificateOne,
+          },
+          {
+            src: CertificateTwo,
+          },
+          {
+            src: CertificateThree,
+          },
+          {
+            src: CertificateFour,
+          },
+        ]}
+      />
     </Box>
   );
 }

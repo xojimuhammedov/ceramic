@@ -3,9 +3,16 @@ import { productData } from "../data";
 import { Box, Flex, Heading, Image, SimpleGrid, Text } from "@chakra-ui/react";
 import { useTranslation } from "react-i18next";
 
+import Lightbox from "yet-another-react-lightbox";
+import Fullscreen from "yet-another-react-lightbox/plugins/fullscreen";
+import "yet-another-react-lightbox/styles.css";
+import Share from "yet-another-react-lightbox/plugins/share";
+import React from "react";
+
 function ProductAbout() {
   const { id } = useParams();
   const { t, i18n } = useTranslation();
+  const [open, setOpen] = React.useState(false);
   const data = productData.find((item) => item.id === Number(id));
   return (
     <Box pb={"36px"}>
@@ -17,7 +24,12 @@ function ProductAbout() {
           flexDirection={{ base: "column", md: "row" }}
           mt={"24px"}
           justifyContent={"space-between"}>
-          <Image {...css.image} src={data?.image} alt={data?.title} />
+          <Image
+            onClick={() => setOpen(true)}
+            {...css.image}
+            src={data?.image}
+            alt={data?.title}
+          />
           <Box>
             <Heading {...css.name}>{t("statistic")}:</Heading>
             <Text
@@ -30,7 +42,13 @@ function ProductAbout() {
         </Flex>
         <SimpleGrid mt={"24px"} gap={"12px"} columns={{ base: 2, lg: 4 }}>
           {data?.images?.map((item, index) => (
-            <Image key={index} {...css.img} src={item} alt={""} />
+            <Image
+              onClick={() => setOpen(true)}
+              key={index}
+              {...css.img}
+              src={item}
+              alt={""}
+            />
           ))}
         </SimpleGrid>
         <Heading mt={"36px"} {...css.title}>
@@ -50,6 +68,13 @@ function ProductAbout() {
           ))}
         </SimpleGrid>
       </Box>
+
+      <Lightbox
+        open={open}
+        close={() => setOpen(false)}
+        plugins={[Fullscreen, Share]}
+        slides={data?.images?.map((item) => ({ src: item }))}
+      />
     </Box>
   );
 }
