@@ -51,18 +51,23 @@ function Form() {
     TOKEN: "8050907392:AAGe_5c4l2KyI2l1cm9WM-oad3totFzUeVg",
     chatID: "-1002323257681",
     message: `
-          Assalomu alaykum sizga yangi xabar!%0A
-          %0AIsmi 👤: ${nameValue}; 
-          %0ATelefon raqami ☎: ${numberValue};
-          %0APochtasi ☎: ${textValue};
+          Assalomu alaykum sizga yangi xabar!
+          Ismi 👤: ${nameValue}; 
+          Telefon raqami ☎: ${numberValue};
+          Pochtasi ☎: ${textValue};
+          Davlati ☎: ${country};
+          Shahri ☎: ${location};
+          Kompaniyasi ☎: ${company};
           `,
   };
+
+  const encodedMessage = encodeURIComponent(bot.message);
 
   function sendMessage(e) {
     e.preventDefault();
 
     fetch(
-      `https://api.telegram.org/bot${bot.TOKEN}/sendMessage?chat_id=${bot.chatID}&text=${bot.message} `,
+      `https://api.telegram.org/bot${bot.TOKEN}/sendMessage?chat_id=${bot.chatID}&text=${encodedMessage} `,
       {
         method: "GET",
       }
@@ -162,7 +167,8 @@ function Form() {
               allowfullscreen=""
               className="form-map"
               loading="lazy"
-              referrerPolicy="no-referrer-when-downgrade" />
+              referrerPolicy="no-referrer-when-downgrade"
+            />
             {/* <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3001.4935650251427!2d69.24745957586927!3d41.21101347132282!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae60e8bb54cecb%3A0xef1a6253f161df48!2sNilufar%20St%2C%20Tashkent%2C%20Uzbekistan!5e0!3m2!1sen!2s!4v1730994409889!5m2!1sen!2s"
               // width="600"
