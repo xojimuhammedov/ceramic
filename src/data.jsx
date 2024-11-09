@@ -43,9 +43,7 @@ export const productData = [
       "https://orient-ceramic.ru/uploads/0500_int.jpg",
       "https://orient-ceramic.ru/uploads/00_600x1200__1.jpg",
     ],
-    service: [
-      { id: "0500", size: "600x600", surfaceType: "matte", price: 4 },
-    ],
+    service: [{ id: "0500", size: "600x600", surfaceType: "matte", price: 4 }],
   },
   {
     id: 2,
@@ -405,6 +403,102 @@ export const productData = [
     service: [
       { id: "0524", size: "600x600", surfaceType: "", price: 4 },
       { id: "0824", size: "600x1200", surfaceType: "", price: 2 },
+    ],
+  },
+  {
+    id: 13,
+    title: "Oriental Statuario matt",
+    description_uz: `Yuzi: Matt <br />
+    Qo'llanish sohasi: Ichki va tashqi <br />
+    Taqlid: Tabiiy tosh <br />
+    Material: Karamogranit <br />
+    Qo'llanishi: Pol, devorlar va fasad <br />
+    Qalinligi: 9 ≥ mm`,
+    description_ru: `Поверхность: Матовая <br />
+    Область применения: Внутреннее и наружное <br />
+    Имитация: Натуральный камень <br />
+    Материал: Керамогранит <br />
+    Применение: Полы, стены и фасад <br />
+    Толщина: 9 ≥ мм`,
+    description_en: `Surface: Matte <br />
+    Application area: Indoor and outdoor <br />
+    Imitation: Natural stone <br />
+    Material: Porcelain stoneware <br />
+    Usage: Floors, walls, and facade <br />
+    Thickness: 9 ≥ mm`,
+    image: "https://orient-ceramic.ru/uploads/0528_int.jpg",
+    images: [
+      "https://orient-ceramic.ru/uploads/0528_int.jpg",
+      "https://orient-ceramic.ru/uploads/28_600x600__1.jpg",
+      "https://orient-ceramic.ru/uploads/28_600x600__3.jpg",
+      "https://orient-ceramic.ru/uploads/28_600x1200__1.jpg",
+    ],
+    service: [
+      { id: "0528", size: "600x600", surfaceType: "", price: 4 },
+      { id: "0828", size: "600x1200", surfaceType: "", price: 2 },
+    ],
+  },
+  {
+    id: 14,
+    title: "Symphonie matt",
+    description_uz: `Yuzi: Matt <br />
+    Qo'llanish sohasi: Ichki va tashqi <br />
+    Taqlid: Tabiiy tosh <br />
+    Material: Karamogranit <br />
+    Qo'llanishi: Pol, devorlar va fasad <br />
+    Qalinligi: 9 ≥ mm`,
+    description_ru: `Поверхность: Матовая <br />
+    Область применения: Внутреннее и наружное <br />
+    Имитация: Натуральный камень <br />
+    Материал: Керамогранит <br />
+    Применение: Полы, стены и фасад <br />
+    Толщина: 9 ≥ мм`,
+    description_en: `Surface: Matte <br />
+    Application area: Indoor and outdoor <br />
+    Imitation: Natural stone <br />
+    Material: Porcelain stoneware <br />
+    Usage: Floors, walls, and facade <br />
+    Thickness: 9 ≥ mm`,
+    image: "https://orient-ceramic.ru/uploads/0529_int.jpg",
+    images: [
+      "https://orient-ceramic.ru/uploads/0529_int.jpg",
+      "https://orient-ceramic.ru/uploads/29_600x600__2.jpg",
+      "https://orient-ceramic.ru/uploads/29_600x1200__3.jpg",
+      "https://orient-ceramic.ru/uploads/29_600x1200__5.jpg",
+    ],
+    service: [{ id: "0529", size: "600x600", surfaceType: "", price: 4 }],
+  },
+  {
+    id: 15,
+    title: "Beton Antracite matt",
+    description_uz: `Yuzi: Matt <br />
+    Qo'llanish sohasi: Ichki va tashqi <br />
+    Taqlid: Tabiiy tosh <br />
+    Material: Karamogranit <br />
+    Qo'llanishi: Pol, devorlar va fasad <br />
+    Qalinligi: 9 ≥ mm`,
+    description_ru: `Поверхность: Матовая <br />
+    Область применения: Внутреннее и наружное <br />
+    Имитация: Натуральный камень <br />
+    Материал: Керамогранит <br />
+    Применение: Полы, стены и фасад <br />
+    Толщина: 9 ≥ мм`,
+    description_en: `Surface: Matte <br />
+    Application area: Indoor and outdoor <br />
+    Imitation: Natural stone <br />
+    Material: Porcelain stoneware <br />
+    Usage: Floors, walls, and facade <br />
+    Thickness: 9 ≥ mm`,
+    image: "https://orient-ceramic.ru/uploads/0530_int.jpg",
+    images: [
+      "https://orient-ceramic.ru/uploads/0530_int.jpg",
+      "https://orient-ceramic.ru/uploads/30_600x1200__1.jpg",
+      "https://orient-ceramic.ru/uploads/30_600x1200__6.jpg",
+      "https://orient-ceramic.ru/uploads/30_600x1200__4.jpg",
+    ],
+    service: [
+      { id: "0530", size: "600x600", surfaceType: "", price: 4 },
+      { id: "0530", size: "600x1200", surfaceType: "", price: 4 },
     ],
   },
 ];
