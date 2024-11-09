@@ -498,7 +498,102 @@ export const productData = [
     ],
     service: [
       { id: "0530", size: "600x600", surfaceType: "", price: 4 },
-      { id: "0530", size: "600x1200", surfaceType: "", price: 4 },
+      { id: "0530", size: "600x1200", surfaceType: "", price: 2 },
+    ],
+  },
+  {
+    id: 16,
+    title: "Samarqand matt",
+    description_uz: `Yuzi: Matt <br />
+    Qo'llanish sohasi: Ichki va tashqi <br />
+    Taqlid: Sharqona tosh <br />
+    Material: Karamogranit <br />
+    Qo'llanishi: Pol, devorlar va fasad <br />
+    Qalinligi: 9 ≥ mm`,
+    description_ru: `Поверхность: Матовая <br />
+    Область применения: Внутреннее и наружное <br />
+    Имитация: Восточный камень <br />
+    Материал: Керамогранит <br />
+    Применение: Полы, стены и фасад <br />
+    Толщина: 9 ≥ мм`,
+    description_en: `Surface: Matte <br />
+    Application area: Indoor and outdoor <br />
+    Imitation: Oriental stone <br />
+    Material: Porcelain stoneware <br />
+    Usage: Floors, walls, and facade <br />
+    Thickness: 9 ≥ mm`,
+    image: "https://orient-ceramic.ru/uploads/0536_int.jpg",
+    images: [
+      "https://orient-ceramic.ru/uploads/0536_int.jpg",
+      "https://orient-ceramic.ru/uploads/36_600x600__1.jpg",
+      "https://orient-ceramic.ru/uploads/0536.jpg",
+    ],
+    service: [
+      { id: "0536", size: "600x600", surfaceType: "", price: 4 },
+    ],
+  },
+  {
+    id: 17,
+    title: "Loft Now White",
+    description_uz: `Yuzi: Matt <br />
+    Qo'llanish sohasi: Ichki va tashqi <br />
+    Taqlid: <br />
+    Material: Karamogranit <br />
+    Qo'llanishi: Pol, devorlar va fasad <br />
+    Qalinligi: 9 ≥ mm`,
+    description_ru: `Поверхность: Матовая <br />
+    Область применения: Внутреннее и наружное <br />
+    Имитация:  <br />
+    Материал: Керамогранит <br />
+    Применение: Полы, стены и фасад <br />
+    Толщина: 9 ≥ мм`,
+    description_en: `Surface: Matte <br />
+    Application area: Indoor and outdoor <br />
+    Imitation: <br />
+    Material: Porcelain stoneware <br />
+    Usage: Floors, walls, and facade <br />
+    Thickness: 9 ≥ mm`,
+    image: "https://orient-ceramic.ru/uploads/0837_int.jpg",
+    images: [
+      "https://orient-ceramic.ru/uploads/0837_int.jpg",
+      "https://orient-ceramic.ru/uploads/37_600x1200__1.jpg",
+      "https://orient-ceramic.ru/uploads/37_600x1200__3.jpg",
+      "https://orient-ceramic.ru/uploads/37_600x1200__6.jpg",
+    ],
+    service: [
+      { id: "0837", size: "600x600", surfaceType: "", price: 4 },
+    ],
+  },
+  {
+    id: 18,
+    title: "Oriental Marmi Panda",
+    description_uz: `Yuzi: Matt <br />
+    Qo'llanish sohasi: Ichki va tashqi <br />
+    Taqlid: <br />
+    Material: Karamogranit <br />
+    Qo'llanishi: Pol, devorlar va fasad <br />
+    Qalinligi: 9 ≥ mm`,
+    description_ru: `Поверхность: Матовая <br />
+    Область применения: Внутреннее и наружное <br />
+    Имитация: <br />
+    Материал: Керамогранит <br />
+    Применение: Полы, стены и фасад <br />
+    Толщина: 9 ≥ мм`,
+    description_en: `Surface: Matte <br />
+    Application area: Indoor and outdoor <br />
+    Imitation: <br />
+    Material: Porcelain stoneware <br />
+    Usage: Floors, walls, and facade <br />
+    Thickness: 9 ≥ mm`,
+    image: "https://orient-ceramic.ru/uploads/0839_int.jpg",
+    images: [
+      "https://orient-ceramic.ru/uploads/0839_int.jpg",
+      "https://orient-ceramic.ru/uploads/39_600x1200__1.jpg",
+      "https://orient-ceramic.ru/uploads/39_600x1200__3.jpg",
+      "https://orient-ceramic.ru/uploads/39_600x1200__6.jpg",
+    ],
+    service: [
+      { id: "0839", size: "600x1200", surfaceType: "", price: 2 },
     ],
   },
 ];
