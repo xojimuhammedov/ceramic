@@ -54,10 +54,10 @@ function Form() {
           Assalomu alaykum sizga yangi xabar!
           Ismi 👤: ${nameValue}; 
           Telefon raqami ☎: ${numberValue};
-          Pochtasi ☎: ${textValue};
-          Davlati ☎: ${country};
-          Shahri ☎: ${location};
-          Kompaniyasi ☎: ${company};
+          Pochtasi: ${textValue};
+          Davlati: ${country};
+          Shahri: ${location};
+          Kompaniyasi: ${company};
           `,
   };
 
