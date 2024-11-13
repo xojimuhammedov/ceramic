@@ -15,7 +15,7 @@ import Statistic from "./components/Statistic";
 function App() {
   return (
     <>
-      <Box className="app">
+      {/* <Box className="app">
         <Navbar />
         <Routes>
           <Route
@@ -35,7 +35,7 @@ function App() {
           <Route path="/product/:id" element={<ProductAbout />} />
         </Routes>
         <Footer />
-      </Box>
+      </Box> */}
     </>
   );
 }
